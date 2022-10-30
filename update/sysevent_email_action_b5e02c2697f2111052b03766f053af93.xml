@@ -43,7 +43,6 @@
 <p>${mail_script:CountOverdueIncidentTasksAssignedTo}</p>
 <p>&nbsp;</p>
 <p>Click here to view the Incident Task record: ${URI_REF}</p>
-<p>${mailto:mailto.closeincidenttask}</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>

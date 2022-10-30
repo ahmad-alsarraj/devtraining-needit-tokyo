@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Click here to close Incident Task ${number}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.closeincidenttask</name>
+        <sms_alternate/>
+        <subject>Re: ${number} - please close Incident Task</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 05:40:49</sys_created_on>
+        <sys_id>ac22e4a697f2111052b03766f053afdb</sys_id>
+        <sys_name>mailto.closeincidenttask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_ac22e4a697f2111052b03766f053afdb</sys_update_name>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>57869771db86d51852dd2f17d496191d</instance_id>
+        <instance_name>dev135295</instance_name>
+        <name>sysevent_email_template_ac22e4a697f2111052b03766f053afdb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;
+    &lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;
+        &lt;collection&gt;incident&lt;/collection&gt;
+        &lt;email_layout/&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Click here to close Incident Task ${number}&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;mailto.closeincidenttask&lt;/name&gt;
+        &lt;sms_alternate/&gt;
+        &lt;subject&gt;Re: ${number} - please close Incident Task&lt;/subject&gt;
+        &lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-30 05:40:49&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac22e4a697f2111052b03766f053afdb&lt;/sys_id&gt;
+        &lt;sys_name&gt;mailto.closeincidenttask&lt;/sys_name&gt;
+        &lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_template_ac22e4a697f2111052b03766f053afdb&lt;/sys_update_name&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+    &lt;/sysevent_email_template&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>128194242</payload_hash>
+        <record_name>mailto.closeincidenttask</record_name>
+        <reverted_from/>
+        <source>dc68bd6a973a111052b03766f053afd6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 11:57:53</sys_created_on>
+        <sys_id>336835aa973a111052b03766f053aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18428c1633b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 11:57:53</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>7f6835aacf3a1110ade275e229e96bf1</update_guid>
+        <update_guid_history>7f6835aacf3a1110ade275e229e96bf1:0,61f5f5a67b3a1110cce32c788bb51620:-2086456138,2fd2a4a681f21110749e9a6f08c99f46:-59567934,6422e4a6e4f21110c5a41841978a9bdd:1086275627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:06:50</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>d15aad0bf66e4477a35a9603517aa6e9</sys_id>
+        <sys_metadata>ac22e4a697f2111052b03766f053afdb</sys_metadata>
+        <sys_name>mailto.closeincidenttask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">07f312a4f98211108c8bd16244dfe7d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_ac22e4a697f2111052b03766f053afdb</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_ac22e4a697f2111052b03766f053afdb">336835aa973a111052b03766f053aff2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
